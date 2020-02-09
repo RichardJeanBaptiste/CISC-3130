@@ -1,3 +1,10 @@
+
+/*
+    Richard Jean-Baptiste
+    14051497
+    CISC-3130
+*/
+
 import java.io.*;
 import java.util.*;
 
@@ -105,9 +112,7 @@ class Main {
         try
         {
             reader = new BufferedReader(new FileReader(fileToBeModified));
-             
-            //Reading all the lines of input text file into oldContent
-             
+              
             String line = reader.readLine();
              
             while (line != null) 
@@ -117,11 +122,8 @@ class Main {
                 line = reader.readLine();
             }
              
-            //Replacing oldString with newString in the oldContent
              
             String newContent = oldContent.replace(oldString, newString);
-             
-            //Rewriting the input text file with newContent
              
             writer = new FileWriter(fileToBeModified);
              
