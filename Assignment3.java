@@ -1,3 +1,9 @@
+/*
+    Richard Jean-Baptiste
+    14051497
+    CISC-3130
+*/
+
 import java.io.*;
 import java.util.*;
 
