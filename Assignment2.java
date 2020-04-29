@@ -1,3 +1,8 @@
+/*
+    Richard Jean-Baptiste
+    14051497
+*/
+
 import java.io.*;
 import java.text.ParseException;
 import java.util.*;
